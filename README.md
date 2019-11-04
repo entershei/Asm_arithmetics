@@ -1,6 +1,6 @@
 # Asm_arithmetics
 
-An assembler functions for arbitrary-precision integer addition, subtraction and multiplication.
+Assembler functions for arbitrary-precision integer addition, subtraction and multiplication.
 
 ### Run
 Addition: `nasm -f elf64 add.asm && ld -s -o add add.o && ./add` 
